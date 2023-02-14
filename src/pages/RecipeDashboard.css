@@ -1,0 +1,290 @@
+button.add-recipe-button{
+    color: rgb(255, 255, 255);
+    margin-left: 56%;
+    margin-top: 2%;
+    padding:10px;
+    width: 136px;
+    font-size: 12px;
+      height: 35px;
+      border-radius: 10px;
+      background-color: #7976DD;
+      color: white;
+      cursor: pointer;
+      border: none;
+   }
+
+   .recipe-name{
+    margin-left: 15%;
+    font-weight: bold;
+    font-size: 26px;
+   }
+
+   .recipe-name-align{
+    margin-left: 6px;
+   }
+
+   .search-bar{
+    margin-left: 26%;
+    height: 40px;
+    width: 57%;
+    margin-top: 2%;
+    padding-left: 20px;
+   
+   }
+
+.development-button{
+    background:transparent ;
+    border:2px solid#bcbbf1;
+    color: #444281;
+     height: 33px;
+     width: 110px; 
+     font-weight: bold;   
+     font-size: 13px;
+     border-radius: 15px;
+   }
+
+   .development-button:hover  {
+    color:  #444281;
+    background:  #bcbbf1 ;
+} 
+
+.staged-buttons{
+     background:transparent ;
+    border:2px solid rgb(247, 219, 141);
+    color: rgb(121, 88, 0);
+     height: 33px;
+     width: 110px; 
+     font-weight: bold;   
+     font-size: 13px;
+     border-radius: 15px;
+     margin-left: 25px; 
+   }
+
+  .staged-buttons:hover  {
+    color: rgb(121, 88, 0);
+    background:  rgb(247, 219, 141) ;
+}   
+   
+.Archived-button{
+   background:transparent ;
+   border:2px solid#d0d0d0 ;
+   color:  #0000009f;
+    height: 33px;
+        width: 110px;
+        font-weight: bold; 
+        font-size: 13px;
+          border-radius: 15px;
+   }
+
+   .Archived-button:hover  {
+    color:  #0000009f;
+    background:  #d0d0d0 ;
+}
+
+.Effective-button{
+  height: 33px;
+  width: 110px;
+  margin-left: 25px;
+  background:  transparent;
+  border:  2px solid rgb(166, 218, 166);
+  display:  inline-block;
+  color: rgb(17, 128, 17);
+  font-weight: bold; 
+  font-size: 13px;
+    border-radius: 15px;
+       }
+
+      .Effective-button:hover  {
+        color:  rgb(17, 128, 17);
+        background:  rgb(166, 218, 166);
+    }
+
+    .development{
+      background-color:#bcbbf1 ;
+    }
+    
+    .Archived{
+      background-color: #d0d0d0 ;
+    }
+    
+    .staged{
+      background-color: rgb(247, 219, 141);
+
+
+    }
+    
+    .Effective{
+      background-color: rgb(166, 218, 166);
+    }
+   
+
+.button-allign{
+  margin-left: 28%;
+  margin-top: 3%;
+}
+
+.Date-picker{
+  height: 30px;
+  width: 110px;
+  padding-left: 20px;
+}
+
+.status-align{
+  margin-top: 6%;
+  margin-left: 25%;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.last-modified-align{
+  margin-top: 8%;
+  margin-left: 26%;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.date-picker-align{
+  margin-left:23%;
+  margin-top: 3%;
+  
+}
+
+.card-body{
+  width: 45vw;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: white;
+  margin-bottom: 9px;
+  align-items: center;
+ cursor: pointer;
+} 
+
+.card-text-align{
+  align-items: center;
+  padding-top: 12px;
+  padding-left: 10px;
+}
+
+.card-heading{
+  margin-left: 5px;
+}
+
+.card-heading-name{
+padding-left: 5px;
+}
+
+.card-heading-last-modified{
+  padding-left: 53px;
+}
+
+.card-heading-status{
+padding-left: 45px;
+}
+
+.recipe-value-name{
+  font-weight: bold;
+}
+
+.time-font-style{
+  
+  font-weight:  100px;
+  font-size: 13px;
+}
+
+.style-sidebar{
+  background-color: #ffffff;
+  height: 98.8vh;
+  /* margin: 0; */
+  margin-left: -14px;
+  /* padding: 10px; */
+  width: 230px;
+  border-radius: 3px;
+  margin-top: -5px;
+}
+
+.sidebar-icon{
+  margin-left: 75px;
+ padding: 10px;
+
+}
+
+.sidebar-content {
+ margin-left: 6px;
+ margin-top: 30px;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+/* background-color: #7976DD; */
+ border-radius: 20px;
+ height: 35px;
+ width: 215px;
+   /* color: white; */
+  font-size: 2px;
+  cursor: pointer;
+}
+
+.sidebar-content h3{
+  font-size: 18px;
+  margin-left: 5px;
+  padding: 6px;
+
+}
+.sidebar-content-align{
+  margin-left: 10px;
+
+}
+
+.dark {
+  background-color:#7976DD ;
+  border-radius: 5px;
+  color:white;
+   
+}
+.logout-position{
+  position:absolute;
+  bottom: 30px;
+
+}
+
+.logout-button{
+  width: 100px;
+  height:30px;
+  margin-left: 50px;
+ 
+}
+
+
+
+
+
+
+.paginationBttns {
+  width: 80%;
+ 
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 20px;
+  
+}
+
+.paginationBttns a {
+  padding: 20px;
+  color: #000000;
+  cursor: pointer;
+ 
+}
+
+.paginationBttns a:hover {
+  color: rgb(15, 2, 2);
+
+}
+
+.paginationActive a {
+  color: rgb(0, 0, 0);
+}
+
+.paginationDisabled a {
+  color: grey;
+
+}

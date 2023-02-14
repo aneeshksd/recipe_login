@@ -1,0 +1,89 @@
+    .main {
+        text-align: center;
+        justify-content: center;
+        display: flex; 
+        padding-top: 90px;
+        padding-bottom: 90px;
+        background-color: #e1e3eb;
+    }
+    .sub-main {
+        display: flex;
+        justify-content: center;
+        height: 550px;
+        width: 35%;
+        box-shadow: 11px 12px 13px 12px rgb(207, 207, 207);
+        padding-top: 30px;
+    
+        background-color: white;
+    }
+    
+    
+    
+
+    input{
+        width: 300px;
+        height: 50px;
+        border-radius: 10px;
+        box-shadow: inset 0px 0px 5px 0px #888;
+        border: none;
+        outline: none;
+        background-color: #fff;
+    }
+
+    .email{
+        height: 25px;
+        width: 25px;
+        position: absolute;
+        
+    }
+    .text{
+        margin-right: 80%;
+    }
+
+    .name{
+        padding-left: 20px;
+        font-size: 20px;
+    }
+    .second-input{
+        padding-top: 5px;
+    }
+
+    button{
+        width: 300px;
+        height: 50px;
+        border-radius: 10px;
+        background-color: #7976DD;
+        color: white;
+        font-size: 20px;
+        border: none;
+        cursor: pointer;
+        
+    }
+    .login-button{
+        padding-top: 30px;
+    }
+
+    .link{
+        font-size: 25px;
+        font-weight: 400;
+    }
+    a{
+        color: blue;
+    }
+    .container-image{
+        size: 4rem;
+        height: 4rem;
+    }
+
+    span.enter-email {
+        color: red;
+        font-size: 16px;
+    }
+    span.enter-password {
+        color: red;
+        font-size: 16px;
+    }
+    span.enter-correct-details {
+        color: red;
+        font-size: 16px;
+    }

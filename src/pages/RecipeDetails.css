@@ -1,0 +1,24 @@
+.recipe-background{
+    background-color: #eaeaf4;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+.recipe-details-body{
+  margin-top: 20px;
+  margin-left:14% ;
+}
+.recipe-details-name{
+  font-weight: bold;
+  font-size: 26px;
+}
+.recipe-details{
+margin-left: 2vw;
+}
+.detail-status-button{
+  margin-top: 3px;
+}
+.detail-status-button-align{
+  text-align: center;
+  padding-bottom : 20px;
+}
